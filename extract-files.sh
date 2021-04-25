@@ -12,6 +12,9 @@ function blob_fixup() {
 	    sed -i 's/gb2312/utf-8/g' "${2}"
 	    sed -i 's/GB2312/UTF-8/g' "${2}"
             ;;
+	odm/etc/libnfc-nci.conf)
+	    sed -i 's/\/data\/nfc/\/data\/vendor\/nfc/g' "${2}"
+	    ;;
     esac
 }
 
