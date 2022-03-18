@@ -54,16 +54,13 @@ odm/etc/camera/configeffect/multidenoise/imx498/rawnf.xml
 odm/etc/camera/configeffect/multidenoise/imx498/sharpen.xml
 odm/etc/camera/configeffect/multidenoise/imx498/yuvnf.xml
 odm/etc/camera/configeffect/multidenoise/imx576/rawnf.xml
-odm/etc/camera/configeffect/multidenoise/imx576/sharpen.xml
 odm/etc/camera/configeffect/multidenoise/imx576/yuvnf.xml
 odm/etc/camera/configeffect/multidenoise/ov16885/rawnf.xml
-odm/etc/camera/configeffect/multidenoise/ov16885/sharpen.xml
 odm/etc/camera/configeffect/multidenoise/ov16885/yuvnf.xml
 odm/etc/camera/configeffect/multidenoise/ov16b10/rawnf.xml
 odm/etc/camera/configeffect/multidenoise/ov16b10/sharpen.xml
 odm/etc/camera/configeffect/multidenoise/ov16b10/yuvnf.xml
 odm/etc/camera/configeffect/multidenoise/s5k3p8/rawnf.xml
-odm/etc/camera/configeffect/multidenoise/s5k3p8/sharpen.xml
 odm/etc/camera/configeffect/multidenoise/s5k3p8/yuvnf.xml
 odm/etc/camera/configeffect/quadra/S5K3P8/gcd.xml
 odm/etc/camera/configeffect/quadra/S5K3P8/rawnf.xml
@@ -87,7 +84,6 @@ odm/etc/camera/configeffect/quadra/ov16885/rawnf.xml
 odm/etc/camera/configeffect/quadra/ov16885/sharpen.xml
 odm/etc/camera/configeffect/quadra/ov16885/yuvnf.xml
 odm/etc/camera/davinci/default/hdr.xml
-odm/etc/camera/davinci/default/imgproc.xml
 odm/etc/camera/davinci/default/multiframe.xml
 odm/etc/camera/davinci/device.config
 odm/etc/camera/davinci/imx371/hdr.xml
@@ -97,7 +93,6 @@ odm/etc/camera/davinci/imx371/quadra/imgproc.xml
 odm/etc/camera/davinci/imx498/hdr.xml
 odm/etc/camera/davinci/imx498/imgproc.xml
 odm/etc/camera/davinci/imx498/multiframe.xml
-odm/etc/camera/davinci/imx498/nicefood/imgproc.xml
 odm/etc/camera/davinci/imx576/hdr.xml
 odm/etc/camera/davinci/imx576/imgproc.xml
 odm/etc/camera/davinci/imx576/multiframe.xml
@@ -111,7 +106,6 @@ odm/etc/camera/davinci/ov16885/quadra/imgproc.xml
 odm/etc/camera/davinci/ov16b10/hdr.xml
 odm/etc/camera/davinci/ov16b10/imgproc.xml
 odm/etc/camera/davinci/ov16b10/multiframe.xml
-odm/etc/camera/davinci/ov16b10/nicefood/imgproc.xml
 odm/etc/camera/davinci/s5k3p8/hdr.xml
 odm/etc/camera/davinci/s5k3p8/imgproc.xml
 odm/etc/camera/davinci/s5k3p8/multiframe.xml
@@ -134,7 +128,6 @@ odm/etc/camera/frontbokeh/FcveConfig.dat
 odm/etc/camera/frontbokeh/blfkernelI_001.dat
 odm/etc/camera/frontbokeh/blfkernelI_005.dat
 odm/etc/camera/frontbokeh/blfkernelI_010.dat
-odm/etc/camera/frontbokeh/fcve.xml
 odm/etc/camera/frontbokeh/frontBokeh_lensBlur.bin
 odm/etc/camera/hdflash/device.config
 odm/etc/camera/hdflash/imx498/hdflash.xml
@@ -209,7 +202,6 @@ odm/etc/camera/mmi7cm/device.config
 odm/etc/camera/mmi7cm/imx498/mmi7cmConfig.xml
 odm/etc/camera/mmi7cm/ov16b10/mmi7cmConfig.xml
 odm/etc/camera/monitor_config.xml
-odm/etc/camera/multidenoise/default/multiframe.xml
 odm/etc/camera/multidenoise/device.config
 odm/etc/camera/multidenoise/imx371/multiframe.xml
 odm/etc/camera/multidenoise/imx498/multiframe.xml
@@ -245,6 +237,16 @@ odm/etc/camera/tornado/imx576/TornadoI.ini
 odm/etc/camera/tornado/ov16885/TornadoI.ini
 odm/etc/camera/tornado/ov16b10/TornadoI.ini
 odm/etc/camera/tornado/s5k3p8/TornadoI.ini
+
+# Camera Configs - fixed up to pass xml checks (removed chinese comments and other issues)
+odm/etc/camera/configeffect/multidenoise/imx576/sharpen.xml|b1b9c78d1638395bef5f703770f09081c8a3bf73
+odm/etc/camera/configeffect/multidenoise/ov16885/sharpen.xml|0e75cc40cd01a9d565baca129687c0c8d0dc4275
+odm/etc/camera/configeffect/multidenoise/s5k3p8/sharpen.xml|f3a541e6c8c93dc97700cbe96e77ad0d6442e34b
+odm/etc/camera/davinci/default/imgproc.xml|cc8f1eb21664beb80a29963a5c90ebc6fa6079f2
+odm/etc/camera/davinci/imx498/nicefood/imgproc.xml|c6d957636761239a2b0a3147a2133f52a3dfc286
+odm/etc/camera/davinci/ov16b10/nicefood/imgproc.xml|c6d957636761239a2b0a3147a2133f52a3dfc286
+odm/etc/camera/frontbokeh/fcve.xml|00b42fe79b9efae10bcb3497bff47cab9e1984be
+odm/etc/camera/multidenoise/default/multiframe.xml|2509e40de1f02ec4697577040969cd8f82acda89
 
 # Camera HALs
 odm/lib64/hwcam/hwcam.hi6250.ANNE.p.GC2375ANE.so
