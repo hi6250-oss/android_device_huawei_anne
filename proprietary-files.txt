@@ -248,6 +248,24 @@ odm/etc/camera/davinci/ov16b10/nicefood/imgproc.xml|c6d957636761239a2b0a3147a213
 odm/etc/camera/frontbokeh/fcve.xml|00b42fe79b9efae10bcb3497bff47cab9e1984be
 odm/etc/camera/multidenoise/default/multiframe.xml|2509e40de1f02ec4697577040969cd8f82acda89
 
+# Camera Dependencies
+odm/lib64/libMegviiUnlock.so
+odm/lib64/libSonyIMX371RmscLibrary.so
+odm/lib64/libSonyPDLibrary.so
+odm/lib64/libarcsoft_agegender_estimation.so
+odm/lib64/libarcsoft_beautyshot.so
+odm/lib64/libarcsoft_palm_detection.so
+odm/lib64/libdcamera_effect.so
+odm/lib64/libdualCamera_calibration.so
+odm/lib64/libfcell.so
+odm/lib64/libmegface_meglive.so
+odm/lib64/libmmi_depth.so
+odm/lib64/libmpbase.so
+odm/lib64/libmrc_cg_beauty.so
+odm/lib64/libremosaic_wrapper.so
+odm/lib64/libremosaiclib.so
+odm/lib64/libunlockmegcv.so
+
 # Camera HALs
 odm/lib64/hwcam/hwcam.hi6250.ANNE.p.GC2375ANE.so
 odm/lib64/hwcam/hwcam.hi6250.ANNE.p.HI259ANE.so
